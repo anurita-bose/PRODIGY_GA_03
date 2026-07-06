@@ -1,0 +1,2 @@
+# No third-party packages required — this project uses only the Python standard library.
+# Python 3.8+ recommended.
