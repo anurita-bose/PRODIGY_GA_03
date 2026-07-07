@@ -31,7 +31,7 @@ repeat. For example, if "Alice was" was followed by "beginning" 3 times and
 "not" 1 time in the corpus, the model picks "beginning" with probability 75%.
 
 This is fundamentally the same *idea* as GPT-2's next-token prediction (see
-[`PRODIGY_GA_01`](../PRODIGY_GA_01)) — but where GPT-2 learns dense
+[`PRODIGY_GA_01`](https://github.com/anurita-bose/PRODIGY_GA_01)) — but where GPT-2 learns dense
 representations that generalize to unseen contexts, a Markov chain can only
 replay exact n-gram statistics it has counted, which is why it needs so
 little compute and why its coherence collapses beyond short spans.
